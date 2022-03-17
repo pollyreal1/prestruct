@@ -26,7 +26,7 @@ const Nav = () => {
             <nav className={show ? 'navbar navbar-expand-lg fixed-top navbar-dark navbar-effect-in' : 'navbar navbar-expand-lg fixed-top navbar-dark navbar-effect-out'}>
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src={`{homePath}/construct.png`} width="75" height="75" alt="" />
+                        <img src={`${homePath}/construct.png`} width="75" height="75" alt="" />
                         <b>Prestruct</b>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
