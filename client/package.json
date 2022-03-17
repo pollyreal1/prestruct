@@ -34,7 +34,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.1"
   },
   "homepage": "http://pollyreal1.github.io/prestruct"
 }
