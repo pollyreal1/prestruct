@@ -6,7 +6,7 @@ import Nav from './Nav'
 
 const Homepage = () => {
 
-    const path = 'https://pollyreal1.github.io/prestruct/';
+    const homePath = 'https://pollyreal1.github.io/prestruct/';
 
     const particlesInit = (main) => {
         console.log(main);
@@ -217,7 +217,7 @@ const Homepage = () => {
                             {/* <div class="box-card box-bg-2">
                                 <h3 class="text-center">Be a validator</h3>
                             </div> */}
-                            <img src="/tech-svg/img-8.svg" width="100%"></img>
+                            <img src={`${homePath}/tech-svg/img-8.svg`} width="100%"></img>
                         </div>
                     </div>
                 </div>
@@ -228,7 +228,7 @@ const Homepage = () => {
                             {/* <div class="box-card box-bg-2">
                                 <h3 class="text-center">Be a validator</h3>
                             </div> */}
-                            <img src="/tech-svg/img-2.svg" width="100%"></img>
+                            <img src={`${homePath}/tech-svg/img-2.svg`} width="100%"></img>
                         </div>
                         <div class="col-md-6 mb-4 text-center text-md-end mt-auto mb-auto">
                             <h1>Never changing gas fees</h1>
