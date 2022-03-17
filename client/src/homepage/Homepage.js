@@ -6,6 +6,8 @@ import Nav from './Nav'
 
 const Homepage = () => {
 
+    const path = 'https://pollyreal1.github.io/prestruct/';
+
     const particlesInit = (main) => {
         console.log(main);
     };
